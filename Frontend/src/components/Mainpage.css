@@ -1,0 +1,106 @@
+.clearfix{
+    display: table;
+    vertical-align: middle;
+    clear: both;
+}
+
+
+
+
+.container .inner-container{
+    width: 40%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.inner-container .tab-view{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.router-div{
+    display: table;
+    width: 100%;
+}
+.inner-container .tab-view ul{
+    list-style: none;
+    width: 100%;
+    margin: 6% 20% 20%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 18px 88px; 
+}
+
+.inner-container .tab-view ul li{
+    width: 33.33%;
+    float: left;
+    /* background-color: aliceblue; */
+    font-weight: 600;
+    
+    margin: 0 auto 10px;
+    vertical-align: middle;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #00bfff;
+}
+
+.inner-container .tab-view ul li a{
+    width: 33.33%;
+    /* float: left; */
+    text-decoration: none;
+    font-weight: 600;
+    
+   /* color: white; */
+   color: #00bfff;
+    padding: 9px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.inner-container .tab-view ul li.signup-li{
+    border-left: 1px solid #00bfff;
+    /* border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px; */
+    /* background-color:rgba(63,76,107,1); */
+    /* color: white; */
+    color: #00bfff;
+
+
+}
+
+.inner-container .tab-view ul li.signin-li{
+    border-left: 1px solid #00bfff;
+    /* border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px; */
+    color: #00bfff;
+    
+    /* background-color: rgba(31,59,8,1); */
+}
+
+.inner-container .tab-view ul li.signin-li a{
+    color: #00bfff !important;
+}
+
+.inner-container .tab-view ul li.signin-li:hover, .inner-container .tab-view ul li.signin-li:focus, .inner-container .tab-view ul li.signin-li:active{
+    background-color: #00bfff;
+    color: white;
+}
+
+.inner-container .tab-view ul li.signin-li a:hover, .inner-container .tab-view ul li.signin-li a:focus, .inner-container .tab-view ul li.signin-li a:active{
+    background-color: #00bfff;
+    color: white !important;
+}
+
+.inner-container .tab-view ul li.signup-li:hover,
+.inner-container .tab-view ul li.signup-li:active,
+.inner-container .tab-view ul li.signup-li:focus
+{
+    color: #ffffff !important;
+    background-color:#00bfff;
+}
+.inner-container .tab-view ul li.signup-li a:hover,
+.inner-container .tab-view ul li.signup-li a:focus,
+.inner-container .tab-view ul li.signup-li a:active{
+    background-color: #00bfff;
+    color: white !important;
+}

@@ -1,0 +1,54 @@
+.signIn{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #00bfff;
+    box-shadow: -1px 0.5px 5px -0.5px;
+}
+
+.signIn form.formFields{
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.signIn form.formFields .formField{
+    width: 100%;
+    margin: 0 auto 10px;
+}
+
+.label{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    color: #00bfff;
+    font-weight: 600;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid #00bfff;
+    width: 100%;
+    padding: 2px 0px;
+    outline: none;
+    margin: 10px 0;
+    font-size: 13px;
+}
+label.checkbox{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    color: #00bfff;
+    font-weight: 500;
+}
+.form_chkbox{
+    margin-right: 10px;
+}
+.btn{
+    background: #00bfff;
+    color: white;
+    outline: none;
+}
+.btn:hover{
+    background: #00bfff;
+    transition: 3ms;
+}
